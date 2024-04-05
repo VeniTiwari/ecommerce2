@@ -80,11 +80,11 @@ import { Link } from 'react-router-dom';
 
 
 
-
+import printer from "../assets/images/printerimg.jpeg";
 
 function CategoriesPage() {
   const categories = [
-    { name: 'Printer', image: '/printer.jpg' },
+    { name: 'Printer', image: printer },
     { name: 'Copiers', image: '/clothing.jpg' },
     { name: 'VGA Cards', image: '/books.jpg' },
     { name: 'Processors', image: '/home_garden.jpg' },
