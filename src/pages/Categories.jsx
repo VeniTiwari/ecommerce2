@@ -80,7 +80,7 @@ import { Link } from 'react-router-dom';
 
 
 
-
+import printer from "../assets/images/printerimg.jpeg";
 
 function CategoriesPage() {
   const categories = [
