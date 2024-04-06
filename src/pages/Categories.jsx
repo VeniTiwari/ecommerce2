@@ -84,16 +84,16 @@ import { Link } from 'react-router-dom';
 
 function CategoriesPage() {
   const categories = [
-    { name: 'Printer', image: '/printer.jpg' },
-    { name: 'Copiers', image: '/clothing.jpg' },
-    { name: 'VGA Cards', image: '/books.jpg' },
-    { name: 'Processors', image: '/home_garden.jpg' },
-    { name: 'Memory', image: '/home_garden.jpg' },
+    { name: 'Printer', image: '/src/components/images/printer.jpg' },
+    { name: 'Copiers', image: '/src/components/images/copier.jpg' },
+    { name: 'VGA Cards', image: '/src/components/images/vga.jpg' },
+    { name: 'Processors', image: '/src/components/images/processor.jpg' },
+    { name: 'Memory', image: '/src/components/images/memory.jpg' },
     { name: 'Motherboard', image: '/src/components/images/motherboard.jpg' },
-    { name: 'Switches', image: '/home_garden.jpg' },
-    { name: 'Routers', image: '/home_garden.jpg' },
-    { name: 'Desktops', image: '/home_garden.jpg' },
-    { name: 'Laptops', image: '/home_garden.jpg' }
+    { name: 'Switches', image: '/src/components/images/switch.jpg' },
+    { name: 'Routers', image: '/src/components/images/router.jpg' },
+    { name: 'Desktops', image: '/src/components/images/desktop.jpg' },
+    { name: 'Laptops', image: '/src/components/images/laptop.jpg' }
     // Add more categories as needed
   ];
 

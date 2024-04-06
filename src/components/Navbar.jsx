@@ -73,11 +73,7 @@ function Navbar() {
                   Category
                 </a>
               </li>
-              <li>
-                <a className="hover:text-gray-600" href="/">
-                  Collections
-                </a>
-              </li>
+             
               <li>
                 <a className="hover:text-gray-600" href="/contact-us">
                   Contact Us
