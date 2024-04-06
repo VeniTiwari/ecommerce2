@@ -2,6 +2,11 @@ import React from "react";
 import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
+import slider1 from "../components/images/slider.jpg";
+import slider2 from "../components/images/slider2.jpg";
+import slider3 from "../components/images/slider3.jpg";
+import slider4 from "../components/images/slider4.jpg";
+
 
 const buttonStyle = {
   width: "30px",
@@ -33,16 +38,16 @@ const divStyle = {
 
 const slideImages = [
   {
-    url: "https://images.unsplash.com/photo-1483985988355-763728e1935b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=cover&w=3457&q=80",
+    url: slider1,
   },
   {
-    url: "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=cover&w=1470&q=80",
+    url: slider2,
   },
   {
-    url: "https://images.unsplash.com/photo-1534452203293-494d7ddbf7e0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=cover&w=1472&q=80",
+    url: slider3,
   },
   {
-    url: "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+    url: slider4,
   },
 ];
 
